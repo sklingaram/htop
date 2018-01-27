@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Lato', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.logo{
+	//padding: 20px;
+}
+.rt-header{
+	padding: 20px 0px;
+	float: right;
+}
+.social-icons{
+	float:right;
+}
+.social-icons li{
+	display: block;
+	float:left;
+	padding-right: 10px;
+}
+.rt-login{
+	padding-top:10px;
+}
+.rt-email{
+	color:#ff3300;
+}
+.navbar-default{
+	background: #214334
+}
+#navbar-rt ul li a{
+	color:#fff;
+}
+.rt-slide{
+	position: relative;
+}
+.rt-subslide{
+	position: absolute;
+bottom: 180px;
+left: 100px;
+}
+.rt-subslide h2{
+color: #fff;
+font-size: 37px;
+background: red;
+padding: 3px;
+}
+.below-rt{
+	padding:15px;
+}
+.rt-title h2{
+	text-align: center;
+	margin-bottom: 15px;
+	font-size:18px;
+}
+.rt-title p{
+font-size:15px;
+line-height: 1.4;
+}
+.custom-icon {
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    //background-color: #00A9FF;
+    color: #ff5c5c;
+    border: 2px solid;
+}
+.rt-title{
+	margin-bottom: 25px;
+}
+.rt_choose h2,.rttrending h2{
+	text-align: center;
+font-size: 18px;
+margin-bottom: 20px;
+}
+.rtourservice h5{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.rtourservice p{
+	font-size: 15px;
+line-height: 1.2;
+}
+#menu-trending-courses li{
+	display: block;
+	float:left;
+	line-height: 1.2;
+	background: rgba(0, 0, 0, 0) url("../images/divider.jpg") no-repeat scroll left top 7px;
+	    padding: 0 7px 0 10px;
+font-size: 14px;
+}
+#menu-trending-courses a{
+	color:#000;
+}
+.dgcopyright{
+background-color: #214334;
+}
+.df_contact h5{
+margin-bottom: 10px;
+color: #ff3300;
+font-size: 18px;
+}
+.df_contact p{
+	color:#fff;
+	line-height: 1.4;
+}
+.df_contact ul li{
+	color:#fff;
+}
+.footer-copyright p{
+	color: #fff;
+	padding: 20px;
+}
+
+
+
+
+
